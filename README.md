@@ -24,6 +24,16 @@ The phase field and displacement fields are approximated using standard piecewis
 - Utilization of a nondimensionalized length scale for the phase-field regularization parameter.
 - Employment of a mesh that is sufficiently refined to accurately resolve interfaces, based on the nondimensionalized scale.
 
+## Overview of the Proposed Fracture Model
+
+Figure 1 illustrates our overall methodology for modeling crack. The key objective is to derive an effective crack energy such that a regularized crack volume responds similarly to an idealized sharp crack. This is accomplished through the distinct handling of the kinematics associated with each deformation mode depicted in the figure.
+
+![Figure 1: Overview of Approach](images/Loadings.jpg "Fig. 1: Separation and Treatment of Deformation Modes")
+
+We systematically separate the kinematics associated with each deformation mode as shown in Figure 1 and 2. Each mode is then treated appropriately to align the behavior of a regularized crack volume with that of an idealized sharp crack.
+
+![Figure 2: Response of Crack and Intact Material under Different Deformations](images/CrackIntactResponse.jpg "Fig. 2: Crack and intact behaviour")
+
 ## References
 This code has been utilized for calculations in the following publication:
 [ScienceDirect Article on Crack Behavior](https://www.sciencedirect.com/science/article/pii/S0022509622001843)
