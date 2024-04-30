@@ -1,4 +1,4 @@
-# Numerical Implementation of Crack Growth using a Physically Realistic Model with FEniCS
+# Numerical Implementation of Crack Growth Using a Physically Realistic Fracture Model in FEniCS
 
 ## Overview
 This repository contains numerical solutions for modeling crack behavior using the Finite Element Method (FEM), implemented with the open-source FEniCS library.
